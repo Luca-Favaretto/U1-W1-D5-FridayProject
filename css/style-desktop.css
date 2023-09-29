@@ -138,6 +138,7 @@ footer {
 .brother {
   display: inline-block;
   margin: 2rem;
+  border-radius: 5px;
 }
 .brother img {
   height: 20rem;

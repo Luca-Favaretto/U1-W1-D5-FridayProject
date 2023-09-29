@@ -124,6 +124,7 @@ footer {
 
 .brother {
   margin: 2rem;
+  border-radius: 5px;
 }
 .brother img {
   width: 100%;
