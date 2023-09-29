@@ -8,10 +8,13 @@ body {
 
 header {
   line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+}
+h1 {
   color: #25a2c3;
   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
 }
+
 footer {
   color: #c8e7f0;
 }
@@ -29,6 +32,7 @@ footer a {
 
 button {
   background-color: #f04c2f;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
@@ -45,7 +49,76 @@ footer {
   border: solid 1px #dee1e3;
 }
 
-/* vero inizio sopra non toccare  */
-.sfondo img {
+/* vero inizio, sopra non toccare  
+indicazioni generali forma*/
+* {
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 2.7rem;
+  font-weight: bold;
+  font-weight: bold;
+  margin: 2rem;
+}
+h3 {
+  color: #25a2c3;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+p {
+  margin: 2rem;
+}
+
+header div img {
+  width: 10rem;
+  margin: 2rem;
+}
+.sfondo-img {
   background-image: url(../images/banner.jpg);
+  background-position: center center;
+  padding: 3rem;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 1.2rem;
+  width: 12rem;
+}
+.img-tonda {
+  border-radius: 100%;
+}
+.sfondo-arancio {
+  padding: 1.5rem 0rem 1.5rem;
+  color: white;
+}
+
+i {
+  font-style: italic;
+}
+h4 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.sfondo-arancio p {
+  margin-top: 0px;
+}
+.brother img {
+  width: 100%;
+}
+
+footer {
+  padding: 2rem;
+}
+
+hr {
+  width: 12rem;
 }
