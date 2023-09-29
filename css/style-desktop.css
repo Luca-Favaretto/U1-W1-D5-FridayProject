@@ -104,6 +104,9 @@ button {
   display: inline-block;
   margin: 7rem;
 }
+.desktop-view p {
+  margin-left: 0px;
+}
 
 .testo-sinistra {
   text-align: left;
@@ -137,4 +140,9 @@ footer {
 
 hr {
   width: 17rem;
+}
+.cont-footer {
+  display: inline-block;
+  margin-inline: auto;
+  width: 2rem;
 }
