@@ -86,8 +86,9 @@ header div img {
 .sfondo-img {
   background-image: url(../images/banner.jpg);
   background-position: center center;
-  padding: 3rem;
+  padding: 5rem 0 5rem;
   background-size: cover;
+  margin-bottom: 3rem;
 }
 
 header {
