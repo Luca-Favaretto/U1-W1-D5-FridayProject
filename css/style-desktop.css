@@ -50,9 +50,12 @@ footer {
 }
 
 /* vero inizio, sopra non toccare  
-indicazioni generali forma*/
+  indicazioni generali forma*/
 * {
   text-align: center;
+}
+.sfondo-nero {
+  text-align: left;
 }
 h1 {
   font-size: 2rem;
@@ -86,12 +89,8 @@ header div img {
 .sfondo-img {
   background-image: url(../images/banner.jpg);
   background-position: center center;
-  padding: 3rem;
+  padding: 10rem;
   background-size: cover;
-}
-
-header {
-  text-align: center;
 }
 
 button {
@@ -100,6 +99,16 @@ button {
   padding: 1.2rem;
   width: 12rem;
 }
+
+.desktop-view {
+  display: inline-block;
+  margin: 7rem;
+}
+
+#desktop-view-right {
+  text-align: left;
+}
+
 .img-tonda {
   border-radius: 100%;
 }
@@ -116,15 +125,16 @@ button {
 footer {
   padding: 2rem;
   margin-top: 5rem;
+  text-align: left;
 }
 
 .brother {
+  display: inline-block;
   margin: 2rem;
 }
 .brother img {
-  width: 100%;
 }
 
 hr {
-  width: 12rem;
+  width: 20rem;
 }
