@@ -1,9 +1,51 @@
+/* indicazioni font*/
 body {
-  font-family: "Montserrat", sans-serif;
   font-family: "Open Sans", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-weight: 1.2;
+  line-height: 1.65;
+  color: #393d41;
 }
 
+header {
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+  font-weight: bold;
+}
+footer {
+  color: #c8e7f0;
+}
+footer h2 {
+  color: white;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+/* indicazioni background color */
 .sfondo-nero {
   background-color: black;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.sfondo-arancio {
+  background-color: #e22d0e;
+}
+
+footer {
+  background-color: #25a2c3;
+}
+/* indicazioni bordi */
+.brother {
+  border: solid 1px #dee1e3;
+}
+
+/* vero inizio sopra non toccare  */
+.sfondo img {
+  background-image: url(../images/banner.jpg);
 }
