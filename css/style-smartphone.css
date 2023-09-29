@@ -72,6 +72,13 @@ p {
   margin: 2rem;
 }
 
+i {
+  font-style: italic;
+}
+h4 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
 header div img {
   width: 10rem;
   margin: 2rem;
@@ -80,6 +87,7 @@ header div img {
   background-image: url(../images/banner.jpg);
   background-position: center center;
   padding: 3rem;
+  background-size: cover;
 }
 
 header {
@@ -99,24 +107,23 @@ button {
 .sfondo-arancio {
   padding: 1.5rem 0rem 1.5rem;
   color: white;
+  margin: 5rem 0rem 5rem;
 }
 
-i {
-  font-style: italic;
-}
-h4 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-}
 .sfondo-arancio p {
   margin-top: 0px;
-}
-.brother img {
-  width: 100%;
 }
 
 footer {
   padding: 2rem;
+  margin-top: 5rem;
+}
+
+.brother {
+  margin: 2rem;
+}
+.brother img {
+  width: 100%;
 }
 
 hr {
